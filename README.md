@@ -17,8 +17,5 @@ Currently the app demonstrates these things:
 
 
 Technical
-- App is built in Unity 5.1.1f1. 
-- Source code files intended to be viewed in MonoDevelop.
-- Currently intended to be run Windowed 1024x768.
+- App is built in Unity 5.2.0p1 
 - Currently only tested to be building and running properly for OSX Desktop x86.
-- OSX build is in the Compiles/ directory.
