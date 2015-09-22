@@ -6,55 +6,42 @@ public class Dealer : MonoBehaviour
 {
 	public DealerUI DealerUIInstance { get; set; }
     
-	[UnityEngine.Serialization.FormerlySerializedAs("m_CardDeck")]
 	[SerializeField]
 	private CardDeck _cardDeck;	
 
-	[UnityEngine.Serialization.FormerlySerializedAs("m_PickupCardSlot")]
 	[SerializeField]
 	private CardSlot _pickupCardSlot;		
 
-	[UnityEngine.Serialization.FormerlySerializedAs("m_StackCardSlot")]
 	[SerializeField]
 	private CardSlot _stackCardSlot;	
 
-	[UnityEngine.Serialization.FormerlySerializedAs("m_DiscardStackCardSlot")]
 	[SerializeField]
 	private CardSlot _discardStackCardSlot;		
 
-	[UnityEngine.Serialization.FormerlySerializedAs("m_DiscardHoverStackCardSlot")]
 	[SerializeField]
 	private CardSlot _discardHoverStackCardSlot;			
 
-	[UnityEngine.Serialization.FormerlySerializedAs("m_RightHandCardSlot")]
 	[SerializeField]
 	private CardSlot _rightHandCardSlot;
 
-	[UnityEngine.Serialization.FormerlySerializedAs("m_LeftHandCardSlot")]
 	[SerializeField]
 	private CardSlot _leftHandCardSlot;
 
-	[UnityEngine.Serialization.FormerlySerializedAs("m_CurrentCardSlot")]
 	[SerializeField]
 	private CardSlot _currentCardSlot;	
 
-	[UnityEngine.Serialization.FormerlySerializedAs("m_Prior0CardSlot")]
 	[SerializeField]
 	private CardSlot _prior0CardSlot;	
 
-	[UnityEngine.Serialization.FormerlySerializedAs("m_Prior1CardSlot")]
 	[SerializeField]
 	private CardSlot _prior1CardSlot;	
 
-	[UnityEngine.Serialization.FormerlySerializedAs("m_Prior2CardSlot")]
 	[SerializeField]
 	private CardSlot _prior2CardSlot;		
 
-	[UnityEngine.Serialization.FormerlySerializedAs("m_Prior3CardSlot")]
 	[SerializeField]
 	private CardSlot _prior3CardSlot;
 
-	[UnityEngine.Serialization.FormerlySerializedAs("m_Prior4CardSlot")]
 	[SerializeField]
 	private CardSlot _prior4CardSlot;																																								
 

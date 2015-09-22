@@ -3,7 +3,6 @@ using System.Collections;
 
 public class ScrollTexture : MonoBehaviourBase
 {	
-	[UnityEngine.Serialization.FormerlySerializedAs("m_ScrollRate")]
 	[SerializeField]
 	private Vector2 _scrollRate;
 

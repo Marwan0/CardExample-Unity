@@ -6,15 +6,14 @@ public class CardSlot : MonoBehaviour
 {
 	public readonly List<Card> CardList = new List<Card>();
 
-	[UnityEngine.Serialization.FormerlySerializedAs("m_InverseStack")]
 	[SerializeField]
 	private bool _inverseStack;
 
-	[UnityEngine.Serialization.FormerlySerializedAs("m_PositionDamp")]
+	[Range(0.05f, 0.3f)]
 	[SerializeField]
 	private float _positionDamp = .2f;
 
-	[UnityEngine.Serialization.FormerlySerializedAs("m_RotationDamp")]
+	[Range(0.05f, 0.3f)]
 	[SerializeField] 
 	private float _rotationDamp = .2f;   
 	
