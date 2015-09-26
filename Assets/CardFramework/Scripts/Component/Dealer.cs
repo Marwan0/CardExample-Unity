@@ -78,11 +78,11 @@ public class Dealer : MonoBehaviour
 		DealInProgress--;
 	}
     
-    	/// <summary>
-    	/// Shuffle Coroutine.
-    	/// Moves all card to pickupCardSlot. Then shuffles them back
+    /// <summary>
+    /// Shuffle Coroutine.
+    /// Moves all card to pickupCardSlot. Then shuffles them back
 	/// to cardStackSlot.
-    	/// </summary>
+    /// </summary>
 	public IEnumerator ShuffleCoroutine()
 	{
 		DealInProgress++;

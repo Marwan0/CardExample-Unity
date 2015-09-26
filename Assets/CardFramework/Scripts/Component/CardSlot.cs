@@ -68,7 +68,7 @@ public class CardSlot : MonoBehaviour
 			CardList.Add(card);
 			card.TargetTransform.rotation = transform.rotation;
 			card.TargetTransform.Rotate(card.TargetTransform.forward, Random.Range(-.4f, .4f), Space.Self);
-			float cardHeight = card.ComponentCache.BoxCollider.size.z;
+			float cardHeight = card.GetComponent<BoxCollider>().size.z;
 			card.TargetTransform.position = transform.position;
 			if (_inverseStack)
 			{

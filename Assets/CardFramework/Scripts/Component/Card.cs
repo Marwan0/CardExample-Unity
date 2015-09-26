@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Card : MonoBehaviourBase 
+public class Card : MonoBehaviour 
 {	
 	public string TexturePath { get; set; }
 	
@@ -76,16 +76,16 @@ public class Card : MonoBehaviourBase
 			FrontBecameHidden();
 		}
 	}
-	
+
 	private void FrontBecameVisible()
 	{
 		AssetBundle cardBundle = BundleManager.SharedManager.LoadBundle(SourceAssetBundlePath);
-		ComponentCache.Material.mainTexture = (Texture)cardBundle.LoadAsset(TexturePath);
+		GetComponent<Renderer>().material.mainTexture = (Texture)cardBundle.LoadAsset(TexturePath);
 	}
 	
 	private void FrontBecameHidden()
 	{
-		Resources.UnloadAsset(ComponentCache.Material.mainTexture);
-	 	ComponentCache.Material.mainTexture = null;
+		Resources.UnloadAsset(GetComponent<Renderer>().material.mainTexture);
+		GetComponent<Renderer>().material.mainTexture = null;
 	}	
 }
