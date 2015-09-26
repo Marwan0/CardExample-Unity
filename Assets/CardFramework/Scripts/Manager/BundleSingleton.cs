@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class BundleManager : Manager<BundleManager>
+public class BundleSingleton : Singleton<BundleSingleton>
 {
 	private readonly List<AssetBundle> AssetBundleList = new List<AssetBundle>();
 	
@@ -66,7 +66,7 @@ public class BundleManager : Manager<BundleManager>
 		_currentLevelAssetBundle = AssetBundle.CreateFromFile(path);
 		if (_currentLevelAssetBundle != null && Application.CanStreamedLevelBeLoaded(level))
 		{
-			BundleManager.SharedManager.UnloadAllBundles();
+			BundleSingleton.Instance.UnloadAllBundles();
 			Application.LoadLevel(level);	
 		}
 		else

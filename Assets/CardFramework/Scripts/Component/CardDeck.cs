@@ -12,7 +12,7 @@ public class CardDeck : MonoBehaviour
 
 	public void InstanatiateDeck(string cardBundlePath)
 	{
-		AssetBundle cardBundle = BundleManager.SharedManager.LoadBundle(DirectoryUtility.ExternalAssets() + cardBundlePath);
+		AssetBundle cardBundle = BundleSingleton.Instance.LoadBundle(DirectoryUtility.ExternalAssets() + cardBundlePath);
 		string[] nameArray = cardBundle.GetAllAssetNames();
 				
 		for (int i = 0; i < nameArray.Length; ++i)
