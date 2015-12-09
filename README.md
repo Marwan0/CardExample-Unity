@@ -20,6 +20,3 @@ Technical
 - App is built in Unity 5.2.0p1
 - Currently only tested to be building and running properly for OSX Desktop x86.
 
-
-UML
-![alt tag](https://github.com/rygo6/CardFramework-Unity/raw/4ad137ebd4faaaf8ba8355c17a5e5b46ec6ff12f/SourceAssets/UML.png)
