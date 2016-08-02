@@ -39,7 +39,7 @@ public class BundleSingleton : Singleton<BundleSingleton>
 		if (assetBundle == null)
 		{
 			assetBundle = new AssetBundle();
-			assetBundle = AssetBundle.CreateFromFile(path);
+			assetBundle = AssetBundle.LoadFromFile(path);
 			assetBundle.name = name;
 			AssetBundleList.Add(assetBundle);
 			return assetBundle;
@@ -63,7 +63,7 @@ public class BundleSingleton : Singleton<BundleSingleton>
 	{
 		string path = DirectoryUtility.ExternalAssets() + level + ".assetBundle";
 		Debug.Log("LoadLevelAssetBundle: " + path);
-		_currentLevelAssetBundle = AssetBundle.CreateFromFile(path);
+		_currentLevelAssetBundle = AssetBundle.LoadFromFile(path);
 		if (_currentLevelAssetBundle != null && Application.CanStreamedLevelBeLoaded(level))
 		{
 			BundleSingleton.Instance.UnloadAllBundles();

@@ -1,67 +1,67 @@
 ManifestFileVersion: 0
-CRC: 1667614222
+CRC: 1993481353
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8dea33418dbb04dbdb2a60a4e43df1bd
+    Hash: 7a3061df46b84d8e16aee6caa0a03756
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 7c0a6a24fc909dd95208e56e2ca96f9c
+    Hash: 6759894fca659e2049f05064db45ce61
 HashAppended: 0
 ClassTypes:
 - Class: 28
   Script: {instanceID: 0}
 Assets:
-- Assets/CardShuffle/AssetBundles/Cards/10_of_diamonds.png
-- Assets/CardShuffle/AssetBundles/Cards/7_of_clubs.png
-- Assets/CardShuffle/AssetBundles/Cards/7_of_spades.png
-- Assets/CardShuffle/AssetBundles/Cards/6_of_clubs.png
-- Assets/CardShuffle/AssetBundles/Cards/king_of_clubs2.png
-- Assets/CardShuffle/AssetBundles/Cards/2_of_clubs.png
-- Assets/CardShuffle/AssetBundles/Cards/6_of_diamonds.png
-- Assets/CardShuffle/AssetBundles/Cards/8_of_spades.png
-- Assets/CardShuffle/AssetBundles/Cards/5_of_hearts.png
-- Assets/CardShuffle/AssetBundles/Cards/8_of_diamonds.png
-- Assets/CardShuffle/AssetBundles/Cards/6_of_hearts.png
-- Assets/CardShuffle/AssetBundles/Cards/2_of_diamonds.png
-- Assets/CardShuffle/AssetBundles/Cards/10_of_clubs.png
-- Assets/CardShuffle/AssetBundles/Cards/jack_of_spades2.png
-- Assets/CardShuffle/AssetBundles/Cards/2_of_spades.png
-- Assets/CardShuffle/AssetBundles/Cards/queen_of_hearts2.png
-- Assets/CardShuffle/AssetBundles/Cards/3_of_clubs.png
-- Assets/CardShuffle/AssetBundles/Cards/king_of_spades2.png
-- Assets/CardShuffle/AssetBundles/Cards/7_of_hearts.png
-- Assets/CardShuffle/AssetBundles/Cards/jack_of_hearts2.png
-- Assets/CardShuffle/AssetBundles/Cards/6_of_spades.png
-- Assets/CardShuffle/AssetBundles/Cards/5_of_diamonds.png
-- Assets/CardShuffle/AssetBundles/Cards/4_of_spades.png
-- Assets/CardShuffle/AssetBundles/Cards/ace_of_diamonds.png
-- Assets/CardShuffle/AssetBundles/Cards/ace_of_clubs.png
-- Assets/CardShuffle/AssetBundles/Cards/5_of_clubs.png
-- Assets/CardShuffle/AssetBundles/Cards/queen_of_diamonds2.png
-- Assets/CardShuffle/AssetBundles/Cards/queen_of_spades2.png
-- Assets/CardShuffle/AssetBundles/Cards/4_of_diamonds.png
-- Assets/CardShuffle/AssetBundles/Cards/ace_of_hearts.png
-- Assets/CardShuffle/AssetBundles/Cards/king_of_diamonds2.png
-- Assets/CardShuffle/AssetBundles/Cards/5_of_spades.png
-- Assets/CardShuffle/AssetBundles/Cards/10_of_spades.png
-- Assets/CardShuffle/AssetBundles/Cards/9_of_diamonds.png
-- Assets/CardShuffle/AssetBundles/Cards/3_of_diamonds.png
-- Assets/CardShuffle/AssetBundles/Cards/9_of_clubs.png
-- Assets/CardShuffle/AssetBundles/Cards/9_of_hearts.png
-- Assets/CardShuffle/AssetBundles/Cards/ace_of_spades2.png
-- Assets/CardShuffle/AssetBundles/Cards/8_of_clubs.png
-- Assets/CardShuffle/AssetBundles/Cards/3_of_hearts.png
-- Assets/CardShuffle/AssetBundles/Cards/jack_of_diamonds2.png
-- Assets/CardShuffle/AssetBundles/Cards/8_of_hearts.png
-- Assets/CardShuffle/AssetBundles/Cards/10_of_hearts.png
-- Assets/CardShuffle/AssetBundles/Cards/3_of_spades.png
-- Assets/CardShuffle/AssetBundles/Cards/4_of_clubs.png
-- Assets/CardShuffle/AssetBundles/Cards/4_of_hearts.png
-- Assets/CardShuffle/AssetBundles/Cards/king_of_hearts2.png
-- Assets/CardShuffle/AssetBundles/Cards/jack_of_clubs2.png
-- Assets/CardShuffle/AssetBundles/Cards/2_of_hearts.png
-- Assets/CardShuffle/AssetBundles/Cards/queen_of_clubs2.png
-- Assets/CardShuffle/AssetBundles/Cards/7_of_diamonds.png
-- Assets/CardShuffle/AssetBundles/Cards/9_of_spades.png
+- Assets/CardFramework/AssetBundles/Cards/10_of_diamonds.png
+- Assets/CardFramework/AssetBundles/Cards/7_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards/7_of_spades.png
+- Assets/CardFramework/AssetBundles/Cards/6_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards/king_of_clubs2.png
+- Assets/CardFramework/AssetBundles/Cards/2_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards/6_of_diamonds.png
+- Assets/CardFramework/AssetBundles/Cards/8_of_spades.png
+- Assets/CardFramework/AssetBundles/Cards/5_of_hearts.png
+- Assets/CardFramework/AssetBundles/Cards/8_of_diamonds.png
+- Assets/CardFramework/AssetBundles/Cards/6_of_hearts.png
+- Assets/CardFramework/AssetBundles/Cards/2_of_diamonds.png
+- Assets/CardFramework/AssetBundles/Cards/10_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards/jack_of_spades2.png
+- Assets/CardFramework/AssetBundles/Cards/2_of_spades.png
+- Assets/CardFramework/AssetBundles/Cards/queen_of_hearts2.png
+- Assets/CardFramework/AssetBundles/Cards/3_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards/king_of_spades2.png
+- Assets/CardFramework/AssetBundles/Cards/7_of_hearts.png
+- Assets/CardFramework/AssetBundles/Cards/jack_of_hearts2.png
+- Assets/CardFramework/AssetBundles/Cards/6_of_spades.png
+- Assets/CardFramework/AssetBundles/Cards/5_of_diamonds.png
+- Assets/CardFramework/AssetBundles/Cards/4_of_spades.png
+- Assets/CardFramework/AssetBundles/Cards/ace_of_diamonds.png
+- Assets/CardFramework/AssetBundles/Cards/ace_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards/5_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards/queen_of_diamonds2.png
+- Assets/CardFramework/AssetBundles/Cards/queen_of_spades2.png
+- Assets/CardFramework/AssetBundles/Cards/4_of_diamonds.png
+- Assets/CardFramework/AssetBundles/Cards/ace_of_hearts.png
+- Assets/CardFramework/AssetBundles/Cards/king_of_diamonds2.png
+- Assets/CardFramework/AssetBundles/Cards/5_of_spades.png
+- Assets/CardFramework/AssetBundles/Cards/10_of_spades.png
+- Assets/CardFramework/AssetBundles/Cards/9_of_diamonds.png
+- Assets/CardFramework/AssetBundles/Cards/3_of_diamonds.png
+- Assets/CardFramework/AssetBundles/Cards/9_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards/9_of_hearts.png
+- Assets/CardFramework/AssetBundles/Cards/ace_of_spades2.png
+- Assets/CardFramework/AssetBundles/Cards/8_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards/3_of_hearts.png
+- Assets/CardFramework/AssetBundles/Cards/jack_of_diamonds2.png
+- Assets/CardFramework/AssetBundles/Cards/8_of_hearts.png
+- Assets/CardFramework/AssetBundles/Cards/10_of_hearts.png
+- Assets/CardFramework/AssetBundles/Cards/3_of_spades.png
+- Assets/CardFramework/AssetBundles/Cards/4_of_clubs.png
+- Assets/CardFramework/AssetBundles/Cards/4_of_hearts.png
+- Assets/CardFramework/AssetBundles/Cards/king_of_hearts2.png
+- Assets/CardFramework/AssetBundles/Cards/jack_of_clubs2.png
+- Assets/CardFramework/AssetBundles/Cards/2_of_hearts.png
+- Assets/CardFramework/AssetBundles/Cards/queen_of_clubs2.png
+- Assets/CardFramework/AssetBundles/Cards/7_of_diamonds.png
+- Assets/CardFramework/AssetBundles/Cards/9_of_spades.png
 Dependencies: []
