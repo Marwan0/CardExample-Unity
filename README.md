@@ -1,6 +1,6 @@
-# CardFramework-Unity
+# CardExample-Unity
 
-This is a very basic example demonstrating how to create a framework in Unity for a 3D card game.
+This is a basic example demonstrating how to create the basis of a system to deal with a card game in Unity.
 
 
 Video of app running can be seen here:
