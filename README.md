@@ -19,6 +19,3 @@ Currently the app demonstrates these things:
 Technical
 - App is built in Unity 5.2.0p1
 - Currently only tested to be building and running properly for OSX Desktop x86.
-
-License
-- http://licence.visualidiot.com
